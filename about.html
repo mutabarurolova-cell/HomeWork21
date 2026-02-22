@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./img/Group 3614.png" alt="">
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Create your plan</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-text">
+            <div class="header-text-h1">
+                <img src="./img/About Us.png" alt="">
+            </div>
+            <div class="header-text-p2">
+                <img src="./img/Start your mornings (1).png" alt="">
+            </div>
+        </div>
+        <div class="header-logo">
+            <img src="./img/Rectangle 679.png" alt="">
+        </div>
+        <div class="header-icon">
+            <img src="./img/image 40.png" alt="">
+        </div>
+    </header>
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/Group 3614.png" alt="">
+        </div>
+        <nav>
+            <div class="nav-link2">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">Create your plan</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footer-icon">
+            <img src="./img/Path.svg" alt="">
+            <img src="./img/Paths.svg" alt="">
+            <img src="./img/Shape.svg" alt="">
+    </footer>
+    <button class="menu-btn">☰</button>
+    <script>
+const btn = document.querySelector('.menu-btn');
+const nav = document.querySelector('.nav-link');
+
+btn.addEventListener('click', () => {
+    nav.classList.toggle('open');
+});
+</script>
+</body>
+</html>
